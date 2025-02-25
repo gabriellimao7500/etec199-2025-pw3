@@ -1,0 +1,18 @@
+
+body {
+  width: 100dvw;
+  height: 100dvh;
+  background: url(./images/fundo_legal.jpeg);
+  backdrop-filter: blur(6px);
+  
+}
+
+#root {
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: #FFF
+}

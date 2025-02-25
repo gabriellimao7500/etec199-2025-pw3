@@ -1,0 +1,32 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10dvh;
+    width:95dvw;
+    max-width: 400px;
+    height:90dvh;
+    max-height: 550px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    gap: 1.5%;
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.356);
+}
+
+.teste{
+    animation: testeanim 2s ease-in-out normal;
+}
+
+@keyframes testeanim {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
